@@ -125,7 +125,7 @@ width: 10%;
     background-color: #ededed;
     }
 .experience-pane__block{
-width: 50%;
+width: 49.92%;
 }
 .left-pane{
     border-right: 2px solid #0B3D30;
@@ -163,11 +163,11 @@ line-height: 20px;
     margin: 0 0 10px 40px;
     line-height: 20px;
     }
-#left-pane-text-s{
+.left-pane-text-s{
     margin-left: 40%;
     margin-right: 40px;
 }
-#right-pane-text-s{
+.right-pane-text-s{
 margin-right: 40%;
 margin-left: 40px;
 }
@@ -176,7 +176,7 @@ font-weight: 300;
 margin-top: 15px;
 }
 .right-pane{
-    margin-left: 50%;
+    margin-left: 49.92%;
     border-left: 2px solid #0B3D30;
 }
 
@@ -231,13 +231,13 @@ background-size: cover;
 background-image: url(../img/works/youfruit.jpg);
 }
 #work-2{
-    background-image: url(../img/works/Bouncy.jpg);
+    background-image: url(../img/works/bouncy.jpg);
 }
 #work-3{
     background-image: url(../img/works/design.jpg);
     }
     #work-4{
-        background-image: url(../img/works/Pirol.jpg);
+        background-image: url(../img/works/pirol.jpg);
         }
 
 .mask{
@@ -301,10 +301,10 @@ width: 50px;
 
 /* MEDIA */
 @media only screen and (max-width: 1440px){
-    #left-pane-text-s{
+    .left-pane-text-s{
      margin-left: 20%;
     }
-    #right-pane-text-s{
+    .right-pane-text-s{
      margin-right: 20%;
     }
 }
@@ -335,10 +335,10 @@ width: 50px;
 
 }
 @media only screen and (max-width: 1024px){
-    #left-pane-text-s{
+    .left-pane-text-s{
      margin-left: 20%;
     }
-    #right-pane-text-s{
+    .right-pane-text-s{
      margin-right: 20%;
     }
     .work-project{
@@ -415,7 +415,7 @@ margin: 0 0px 10px 40px;
 .left-pane__text{
 text-align: left;
 }
-#left-pane-text-s{
+.left-pane-text-s{
 margin-left: 40px;
 margin-right: auto;
 }
