@@ -6,7 +6,12 @@ font-family: 'Open Sans', sans-serif;
 section{
 padding: 150px 0;
 }
-/* ABOUT SECTION */
+.main-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* ABOUT секция */
 .about{
 padding: 0 0 135px 0;
 }
@@ -40,11 +45,10 @@ font-size: 16px;
 }
 #text-name{
 padding-top: 100px;
-margin-bottom: 0;
+margin-bottom: 10px;
 }
 #text-position{
 text-align: center;
-margin-top: 10px;
 }
 .about-social__wrap{
 width: 185px;
@@ -75,22 +79,17 @@ text-align: center;
 line-height: 75px;
 font-weight: 700;
 }
-/*  */
 /* Проффесиональные навыки */
 .qualifications{
 background-color: #ededed;
 }
-.qualifications-wrap{
-    display: flex;
-justify-content: center;
-}
 .qualifications-ul{
+width: 1000px;
 margin: 0 auto;
 list-style-type: none;
 }
 .qualifications-ul li{
-/* text-align: center; */
-margin-bottom: 10px;
+margin-bottom: 20px;
 font-weight: 300;
 }
 /* Технологии */
@@ -142,8 +141,8 @@ background-color: #0B3D30;
 position: absolute;
 border-radius: 50%;
 right: -13px;
-border: 2px solid #fff;
 top: -1px;
+border: 2px solid #fff;
 }
 .exp-circle{
     border: 2px solid #ededed;
@@ -188,8 +187,8 @@ margin-top: 15px;
 background-color: #ededed;
 }
 .adv-block{
+    width: 250px;
 margin: 50px 20px 0px;
-width: 250px;
 }
 .adv-img{
 display: block;
@@ -207,54 +206,40 @@ width: 650px;
 margin: 0 auto 60px;
 }
 /* Выполненные работы */
-.wrap-work{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.wrap{
-width: 60%;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
-}
 .work-project{
 height: 250px;
 width: 250px;
 position: relative;
 margin: 0 20px;
+background-size: cover;
 }
+.work-a{
+    text-align: center;
+    line-height: 250px;
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 150;
+    }
 #work-1{
 background-image: url(../img/works/youfruit.jpg);
-background-size: cover;
 }
 #work-2{
     background-image: url(../img/works/Bouncy.jpg);
-    background-size: cover;
 }
 #work-3{
     background-image: url(../img/works/design.jpg);
-    background-size: cover;
     }
     #work-4{
         background-image: url(../img/works/Pirol.jpg);
-        background-size: cover;
         }
-.work-a{
-text-align: center;
-line-height: 250px;
-color: #fff;
-font-size: 40px;
-text-decoration: none;
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-z-index: 150;
-}
+
 .mask{
 width: 100%;
 height: 100%;
@@ -277,23 +262,14 @@ width: 100%;
 text-align: center;
 margin: 20px 0;
 }
-#diploma-p{
-margin-bottom: 50px;
-}
-
 /* Обо мне */
 .bio-img{
 width: 400px;
-margin-right: 40px;
-}
-#bio-block{
-width: 45%;
-line-height: 1.55;
-padding-top: 20px;
+height: 550px;
+margin-right: 80px;
 }
 .bio-text{
     width: 400px;
-    margin-left: 40px;
     line-height: 1.6;
     }
 /* Связаться */
@@ -305,6 +281,12 @@ text-align: center;
 font-size: 50px;
 color: #fff;
 margin-bottom: 30px;
+}
+.contact-a{
+    display: block;
+text-decoration: none;
+font-weight: 700;
+margin: auto;
 }
 .contact-social{
 width: 250px;
@@ -346,6 +328,9 @@ width: 50px;
     .sertificate{
         width: 290px;
         margin: 0 15px;
+        }
+        .qualifications-ul{
+        width: 750px;
         }
 
 }
@@ -444,9 +429,15 @@ width: 400px;
 .bio-text{
 width: 80%;
 }
-.download-cv, .social-img, .contact-icon{
+.download-cv, .social-img, .contact-icon, .work-a, .contact-a{
     -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: transparent;
 }
+.qualifications-ul{
+    width: 400px;
+    }
+    .qualifications-ul li{
+     margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 425px){
     section {
@@ -483,14 +474,15 @@ width: 300px;
 .contact-text{
 font-size: 30px;
 }
+.qualifications-ul li{
+    margin-left: 40px;
+  }
 }
 @media only screen and (max-width: 360px){
     section {
         padding: 50px 0;
     }
-    .qualifications-ul li{
-      margin-left: 40px;
-    }
+
 .text-l{
 font-size: 26px;
 }
