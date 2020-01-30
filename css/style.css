@@ -1,0 +1,503 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+}
+section{
+padding: 150px 0;
+}
+/* ABOUT SECTION */
+.about{
+padding: 0 0 135px 0;
+}
+.about-background{
+ background-image: url(../img/about-bckg.jpg);
+ background-size: cover;
+height: 50vh;
+position: relative;
+}
+.about-img{
+width: 160px;
+height: 160px;
+position: absolute;
+border-radius: 50%;
+border: 2px solid #fff;
+left: 0;
+right: 0;
+bottom: -82px;
+margin: auto;
+}
+.text-l{
+font-size: 36px;
+text-align: center;
+margin-bottom: 60px;
+}
+.text-m{
+font-size: 20px;
+}
+.text-s{
+font-size: 16px;
+}
+#text-name{
+padding-top: 100px;
+margin-bottom: 0;
+}
+#text-position{
+text-align: center;
+margin-top: 10px;
+}
+.about-social__wrap{
+width: 185px;
+display: flex;
+justify-content: space-between;
+margin: 45px auto;
+}
+.social-img{
+width: 35px;
+}
+.about-short{
+width: 680px;
+margin: 0 auto;
+text-align: center;
+font-weight: 300;
+}
+.download-cv{
+display: block;
+width: 240px;
+height: 75px;
+margin: 60px auto;
+font-size: 25px;
+background-color:#0B3D30;
+text-decoration: none;
+color: #fff;
+border-radius: 100px;
+text-align: center;
+line-height: 75px;
+font-weight: 700;
+}
+/*  */
+/* Проффесиональные навыки */
+.qualifications{
+background-color: #ededed;
+}
+.qualifications-wrap{
+    display: flex;
+justify-content: center;
+}
+.qualifications-ul{
+margin: 0 auto;
+list-style-type: none;
+}
+.qualifications-ul li{
+/* text-align: center; */
+margin-bottom: 10px;
+font-weight: 300;
+}
+/* Технологии */
+.wrap-s{
+width: 40%;
+margin: 50px auto;
+}
+.skills-bar{
+width: 100%;
+height: 50px;
+border-radius: 5px;
+background-color: #ccc;
+margin: 10px 0 30px;
+}
+.skills-percent{
+width: 90%;
+height: 50px;
+background-color: #0B3D30;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+#js{
+width: 60%;
+}
+#jquery{
+width: 15%;
+}
+#react{
+width: 10%;
+}
+/* Опыт работы */
+.experience{
+    background-color: #ededed;
+    }
+.experience-pane__block{
+width: 50%;
+}
+.left-pane{
+    border-right: 2px solid #0B3D30;
+    position: relative;
+    }
+ .right-pane{
+ position: relative;
+ }
+.circle{
+width: 20px;
+height: 20px;
+background-color: #0B3D30;
+position: absolute;
+border-radius: 50%;
+right: -13px;
+border: 2px solid #fff;
+top: -1px;
+}
+.exp-circle{
+    border: 2px solid #ededed;
+}
+.right-circle{
+    left: -13px;
+    top: -1px;
+}
+
+.left-pane__text{
+text-align: right;
+}
+.left-pane-text-m{
+margin: 0 40px 10px 0;
+line-height: 20px;
+}
+.right-pane-text-m{
+    margin: 0 0 10px 40px;
+    line-height: 20px;
+    }
+#left-pane-text-s{
+    margin-left: 40%;
+    margin-right: 40px;
+}
+#right-pane-text-s{
+margin-right: 40%;
+margin-left: 40px;
+}
+.pane-text__s{
+font-weight: 300;
+margin-top: 15px;
+}
+.right-pane{
+    margin-left: 50%;
+    border-left: 2px solid #0B3D30;
+}
+
+
+
+/* Награды */
+.advantages{
+background-color: #ededed;
+}
+.adv-block{
+margin: 50px 20px 0px;
+width: 250px;
+}
+.adv-img{
+display: block;
+width: 100px;
+margin: auto;
+}
+.adv-text-m{
+margin: 10px 0;
+}
+.adv-text-m, .adv-text-s{
+text-align: center;
+}
+.adv-head{
+width: 650px;
+margin: 0 auto 60px;
+}
+/* Выполненные работы */
+.wrap-work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.wrap{
+width: 60%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.work-project{
+height: 250px;
+width: 250px;
+position: relative;
+margin: 0 20px;
+}
+#work-1{
+background-image: url(../img/works/youfruit.jpg);
+background-size: cover;
+}
+#work-2{
+    background-image: url(../img/works/Bouncy.jpg);
+    background-size: cover;
+}
+#work-3{
+    background-image: url(../img/works/design.jpg);
+    background-size: cover;
+    }
+    #work-4{
+        background-image: url(../img/works/Pirol.jpg);
+        background-size: cover;
+        }
+.work-a{
+text-align: center;
+line-height: 250px;
+color: #fff;
+font-size: 40px;
+text-decoration: none;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+z-index: 150;
+}
+.mask{
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+position: absolute;
+z-index: 100;
+}
+/* Сертификаты */
+.diploma{
+background-color: #ededed;
+}
+.sertificate{
+width: 350px;
+margin: 0 15px;
+}
+.sertificate-img{
+width: 100%;
+}
+.certificate-p{
+text-align: center;
+margin: 20px 0;
+}
+#diploma-p{
+margin-bottom: 50px;
+}
+
+/* Обо мне */
+.bio-img{
+width: 400px;
+margin-right: 40px;
+}
+#bio-block{
+width: 45%;
+line-height: 1.55;
+padding-top: 20px;
+}
+.bio-text{
+    width: 400px;
+    margin-left: 40px;
+    line-height: 1.6;
+    }
+/* Связаться */
+.contact{
+background-color: #0B3D30;
+}
+.contact-text{
+text-align: center;
+font-size: 50px;
+color: #fff;
+margin-bottom: 30px;
+}
+.contact-social{
+width: 250px;
+margin: 45px auto 0;
+}
+.contact-icon{
+width: 50px;
+}
+
+
+
+
+/* MEDIA */
+@media only screen and (max-width: 1440px){
+    #left-pane-text-s{
+     margin-left: 20%;
+    }
+    #right-pane-text-s{
+     margin-right: 20%;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .wrap-s{
+     width: 65%;
+    }
+    .work-project{
+     width: 200px;
+     height: 200px;
+    }
+    .work-a{
+     line-height: 200px;
+    }
+    .adv-block{
+    width: 200px;
+    }
+    .adv-img{
+    width: 85px;
+    }
+    .sertificate{
+        width: 290px;
+        margin: 0 15px;
+        }
+
+}
+@media only screen and (max-width: 1024px){
+    #left-pane-text-s{
+     margin-left: 20%;
+    }
+    #right-pane-text-s{
+     margin-right: 20%;
+    }
+    .work-project{
+        width: 350px;
+        height: 350px;
+        margin: 20px 10px 0px;
+       }
+       .work-a{
+        line-height: 350px;
+       }
+       .adv-block{
+        width: 350px;
+        margin: 50px 10px 0;
+        }
+        .adv-img{
+        width: 100px;
+        }
+       .sertificate{
+        width: 350px;
+        margin: 20px 10px;
+        }
+        .bio-wrap{
+         display: block;
+        }
+        .bio-img{
+            width: 450px;
+            display: block;
+            margin-right: 0;
+            margin: 0 auto 50px;
+            }
+            .bio-text{
+                width: 60%;
+                margin: 0 auto;
+                margin-left: auto;
+                text-align: center;
+                }
+
+}
+@media only screen and (max-width: 768px){
+    .about-short, .adv-head{
+    width: 85%;
+    }
+    .contact-text{
+    font-size: 35px;
+    }
+    /* PANES */
+    .experience-pane__block{
+    width: 70%;
+    }
+    .right-pane{
+    margin-left: 17%;
+padding: 40px 0;
+    }
+    #exp-block-2{
+    padding: 40px 0 0;
+    }
+    .left-pane {
+        border-left: 2px solid #0B3D30;
+        border-right: 0;
+        margin-left: 17%;
+}
+
+.circle{
+    left: -13px;
+    top: -1px;
+}
+.right-circle{
+    top: 39px;
+    }
+.left-pane-text-m{
+text-align: left;
+margin: 0 0px 10px 40px;
+}
+.left-pane__text{
+text-align: left;
+}
+#left-pane-text-s{
+margin-left: 40px;
+margin-right: auto;
+}
+.adv-text-s{
+width: 90%;
+margin: 0 auto;
+}
+.bio-img{
+width: 400px;
+}
+.bio-text{
+width: 80%;
+}
+.download-cv, .social-img, .contact-icon{
+    -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-tap-highlight-color: transparent;
+}
+}
+@media only screen and (max-width: 425px){
+    section {
+        padding: 80px 0;
+    }
+    .about {
+        padding: 0 0 80px 0;
+    }
+.text-m{
+font-size: 17px;
+}
+.text-l{
+font-size: 33px;
+}
+.wrap-s{
+width: 80%;
+}
+.bio-text{
+font-size: 14px;
+}
+.bio-img{
+width: 360px;
+}
+.work-project{
+ width: 300px;
+ height: 300px;
+}
+.work-a{
+line-height: 300px;
+}
+.sertificate, .adv-block{
+width: 300px;
+}
+.contact-text{
+font-size: 30px;
+}
+}
+@media only screen and (max-width: 360px){
+    section {
+        padding: 50px 0;
+    }
+    .qualifications-ul li{
+      margin-left: 40px;
+    }
+.text-l{
+font-size: 26px;
+}
+.bio-img{
+width: 300px;
+}
+.contact-text{
+font-size: 25px;
+}
+}
