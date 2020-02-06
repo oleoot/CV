@@ -364,7 +364,6 @@ width: 50px;
          display: block;
         }
         .bio-img{
-            width: 450px;
             display: block;
             margin-right: 0;
             margin: 0 auto 50px;
@@ -423,9 +422,6 @@ margin-right: auto;
 width: 90%;
 margin: 0 auto;
 }
-.bio-img{
-width: 400px;
-}
 .bio-text{
 width: 80%;
 }
@@ -450,7 +446,7 @@ width: 80%;
 font-size: 17px;
 }
 .text-l{
-font-size: 33px;
+font-size: 29px;
 }
 .wrap-s{
 width: 80%;
@@ -460,6 +456,7 @@ font-size: 14px;
 }
 .bio-img{
 width: 360px;
+height: 500px;
 }
 .work-project{
  width: 300px;
@@ -474,10 +471,14 @@ width: 300px;
 .contact-text{
 font-size: 30px;
 }
-.qualifications-ul li{
-    margin-left: 40px;
-  }
+.qualifications-ul{
+width: 100%;
 }
+.qualifications-ul li{
+    margin-left: 20px;
+    width: 75%;
+}
+  }
 @media only screen and (max-width: 360px){
     section {
         padding: 50px 0;
@@ -488,6 +489,7 @@ font-size: 26px;
 }
 .bio-img{
 width: 300px;
+height: 416.6px;
 }
 .contact-text{
 font-size: 25px;
