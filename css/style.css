@@ -16,7 +16,7 @@ padding: 150px 0;
 padding: 0 0 135px 0;
 }
 .about-background{
- background-image: url(../img/about-bckg.jpg);
+ background-image: url(../img/bckg/about-bckg.jpg);
  background-size: cover;
 height: 50vh;
 position: relative;
@@ -210,7 +210,7 @@ margin: 0 auto 60px;
 height: 250px;
 width: 250px;
 position: relative;
-margin: 0 20px;
+margin: 0 20px 40px;
 background-size: cover;
 }
 .work-a{
@@ -239,6 +239,9 @@ background-image: url(../img/works/youfruit.jpg);
     #work-4{
         background-image: url(../img/works/pirol.jpg);
         }
+        #work-5{
+            background-image: url(../img/works/airpods.jpg);
+            }
 
 .mask{
 width: 100%;
