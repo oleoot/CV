@@ -236,12 +236,15 @@ background-image: url(../img/works/youfruit.jpg);
 #work-3{
     background-image: url(../img/works/design.jpg);
     }
-    #work-4{
-        background-image: url(../img/works/pirol.jpg);
-        }
-        #work-5{
-            background-image: url(../img/works/airpods.jpg);
-            }
+#work-4{
+    background-image: url(../img/works/pirol.jpg);
+    }
+#work-5{
+    background-image: url(../img/works/airpods.jpg);
+    }
+#work-6{
+    background-image: url(../img/works/animation.jpg);
+    }
 
 .mask{
 width: 100%;
